@@ -1,0 +1,28 @@
+{
+  "name": "aws-final-project",
+  "version": "1.0.0",
+  "description": "Servicio base para evaluación final DGITI en AWS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --runInBand",
+    "lint": "node --check server.js"
+  },
+  "keywords": [
+    "aws",
+    "terraform",
+    "healthcheck",
+    "load-balancer"
+  ],
+  "author": "Grupo DGITI",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}

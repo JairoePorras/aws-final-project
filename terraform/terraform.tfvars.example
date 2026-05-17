@@ -1,0 +1,9 @@
+aws_region          = "us-east-1"
+project_name        = "dgiti-final"
+instance_type       = "t2.micro"
+db_instance_class   = "db.t3.micro"
+db_name             = "appdb"
+db_username         = "admin"
+db_password         = "ChangeThisPassword123!"
+create_read_replica = true
+allowed_http_cidr   = "0.0.0.0/0"
