@@ -13,7 +13,7 @@ export const options = {
   },
 };
 
-const BASE_URL = __ENV.BASE_URL || "http://aws-final-project-alb-1871721118.us-east-1.elb.amazonaws.com";
+const BASE_URL = __ENV.BASE_URL || "http://aws-final-project-alb-1488231223.us-east-1.elb.amazonaws.com";
 
 export default function () {
   const response = http.get(`${BASE_URL}/health`);

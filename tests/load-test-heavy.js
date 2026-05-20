@@ -1,7 +1,7 @@
 import http from "k6/http";
 import { check, sleep } from "k6";
 
-const BASE_URL = "http://aws-final-project-alb-1871721118.us-east-1.elb.amazonaws.com";
+const BASE_URL = "http://aws-final-project-alb-1488231223.us-east-1.elb.amazonaws.com";
 
 export const options = {
   stages: [
